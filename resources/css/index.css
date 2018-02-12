@@ -6,7 +6,6 @@ body{
   font-size: 22px;
   color: seashell;
   background-color: black;
-  opacity: 0.9;
   text-align: center;
 }
 
@@ -48,6 +47,12 @@ a{
 
 /* This is the TOP main content code */
 
+#container{
+  width: 1200px;
+  margin: auto;
+  padding-top: 69px;
+}
+
 #tmain{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   height: 700px;
@@ -67,3 +72,28 @@ a{
 }
 
 /*This is the MID main content code */
+
+h2,h3,h4{
+  margin: 0;
+  padding: 10px;
+}
+
+#totm{
+  margin: auto;
+  padding-top: 70px;
+  width: 1000px;
+  height: 700px;
+}
+
+.item img{
+  height: 200px;
+  margin: 10px;
+  display: flex;
+}
+
+.item span{
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
