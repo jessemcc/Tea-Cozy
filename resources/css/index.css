@@ -23,12 +23,12 @@ header{
 }
 
 .nav{
-
+  margin-right: 10px;
 }
 
 .logo{
-  margin-left: 10px;
   height: 50px;
+  margin-left: 10px;
 }
 
 ul{
@@ -46,9 +46,24 @@ a{
   color: seashell;
 }
 
-/* This is the main content code */
+/* This is the TOP main content code */
 
-.tmain{
-  width: 1200px;
+#tmain{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   height: 700px;
+  padding-top: 70px;
 }
+
+.flexcontainer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#tmain .tmaintxt{
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+/*This is the MID main content code */
